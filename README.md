@@ -3,10 +3,22 @@
 ### Requirements
   <ul>
     <li>STS Spring tool Suite</li>
-    <li>Lombok</li>
+    <li>Lombok Plug in Installed</li>
     <li>JRE => 8</li>
   </ul>
 
 ## to Run 
 
-just Run as Application over STS modifying the value of fibonacci sequence to show in log.
+Step 1 : maven command: ***mvn spring-boot:run.
+
+Consume through SOAP or POSTMAN Clients, even through navigators as google Chrome.
+
+Step 2
+suggested end-point
+http://localhost:8080/api/fibonacci/{size} 
+
+example
+http://localhost:8080/api/fibonacci/47
+
+
+Note: the API is GET type using HTTP protocol.
